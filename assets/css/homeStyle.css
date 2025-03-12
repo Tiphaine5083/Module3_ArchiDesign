@@ -1,0 +1,84 @@
+.mainHeader {
+    display: flex;
+    background-color: var(--turquoise);
+    background-image: url(../images/path.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+
+    .headerContent {
+        display: flex;
+        align-items: baseline;
+        height: 80px;
+        width: 1200px;
+        margin: 0 auto;
+        padding-top: 25px;
+        color: white;
+
+        .sGauche { 
+            display: flex;
+            align-items: baseline;
+            width: 50%;
+            margin: 0;
+
+            img {
+            height: 50%;
+            }
+
+            p {
+                font-family: "Fjalla One", sans-serif;
+                font-size: 1.11em;
+                margin: 0;
+                padding-left: 10px;
+            }
+        }
+
+        .sDroite {
+            display: flex;
+            align-items: baseline;
+            justify-content: flex-end;
+            width: 50%;
+            margin: 0;
+
+            .navbarre {
+                width: 100%;
+
+                ul {
+                    display: flex;
+                    width: 100%;
+                    list-style: none;
+                    width: 100%;
+                    padding: 0;
+
+                    li {
+                        width: 25%;
+                        font-family: "Fjalla One", sans-serif;
+                        font-size: 1.11em;
+                        text-align: center;
+                        justify-content: space-evenly;
+
+                        a {
+                            text-decoration: none;
+                            font-family: "Fjalla One", sans-serif;
+                            font-size: 1.11em;
+                            color: white;
+                            padding: 5px;
+                        }
+
+                        a:hover {
+                            background-color: white;
+                            color: var(--turquoise);
+                            font-family: "Fjalla One", sans-serif;
+                            font-size: 1.11em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.presentation {
+    width: 1200px;
+    margin: 0 auto;
+    
+}

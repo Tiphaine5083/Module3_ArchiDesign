@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    margin: 0; 
+    /* Couleurs définies par les instructions */
+    --turquoise: #00748d;
+    --jauneOrange: #cb8606;
+    --grisClair: #f9f9f9;
+    --textColor: #414141;
+
+
+}
+
+main {
+    background-color: var(--grisClair);
+}
